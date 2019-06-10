@@ -1,0 +1,262 @@
+*{
+    font-family: 'Righteous', cursive;
+    word-spacing: 3px;
+}
+
+.Body {
+    top: 5px;
+    padding: 7px;
+    width: 960px;
+    margin: auto;
+    background-color: rgb(175, 149, 149);
+    overflow-y: auto;
+    height: auto;
+}
+
+.head {
+    background-color: white;
+    padding: 20px, 0px, 40px, 0px;
+    height: 100px;
+    width: 960px;
+    position: fixed;
+    top: 0px;
+    padding-bottom: 35px;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.Name {
+    padding: 20px, 10px, 20px, 10px;
+    background-color: white;
+    float: left;
+    width: 60%;
+    text-align: center;
+    font-size: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+.About {
+    border-radius: 54px;
+    padding: 50px, 20px;
+    background-color: rgb(119, 55, 55);
+    float: left;
+    width: 90px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: Black;
+}
+
+.About:hover{
+    background-color: rgb(196, 90, 64);
+}
+
+.About:focus{
+    background-color: rgb(173, 60, 60);
+}
+
+.About:active{
+    background-color: rgb(255, 74, 61);
+}
+
+.Profile {
+    border-radius: 54px;
+    padding: 5px, 20px;
+    background-color: rgb(119, 55, 55);
+    float: left;
+    width: 90px;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: Black;
+}
+
+.Profile:hover{
+    background-color: rgb(196, 90, 64);
+}
+
+.Profile:focus{
+    background-color: rgb(173, 60, 60);
+}
+
+.Profile:active{
+    background-color: rgb(255, 74, 61);
+}
+
+.Contact {
+    border-radius: 54px;
+    padding: 5px, 20px;
+    background-color: rgb(119, 55, 55);
+    float: left;
+    width: 90px;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: Black;
+}
+
+.Contact:hover{
+    background-color: rgb(196, 90, 64);
+}
+
+.Contact:focus{
+    background-color: rgb(173, 60, 60);
+}
+
+.Contact:active{
+    background-color: rgb(255, 74, 61);
+}
+
+/* About Me, Bio pg */
+.bio {
+    padding-top: 135px;
+    float: left;
+    width: 100%;
+    top: 2in;
+    padding-left: 5px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.Linkedin {
+    color: black;
+}
+
+#img {
+    float: left;
+    border: 5px;
+    padding-right: 10px;
+}
+
+/* Portfolio page */
+.portpg {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    overflow-y: auto;
+    top: 2in;
+    padding-top: 135px;
+}
+
+.p1r {
+    position: relative;
+}
+
+.trees {
+    size: -30%;
+}
+
+.proj1 {
+    position: absolute;
+    background: rgb(167, 127, 127);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -60px;
+    overflow-wrap: normal;
+}
+
+.p2r {
+    position: relative;
+}
+
+.proj2 {
+    position: absolute;
+    background: rgb(167, 127, 127);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -60px;
+}
+
+.p3r {
+    position: relative;
+}
+
+.proj3 {
+    position: absolute;
+    background: rgb(167, 127, 127);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -60px;
+}
+
+.p4r {
+    position: relative;
+}
+
+.proj4 {
+    position: absolute;
+    background: rgb(167, 127, 127);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -60px;
+}
+
+.p5r {
+    position: relative;
+}
+
+.proj5 {
+    position: absolute;
+    background: rgb(167, 127, 127);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -60px;
+}
+
+.prpic {
+    padding: 10px;
+}
+
+.Pineapple{
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+/* Contact page */
+
+.Form {
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    top: 2in;
+    padding-top: 135px;
+    
+  
+}
+
+#name {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+#email {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+#message {
+    height: 190px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
